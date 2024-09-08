@@ -9,6 +9,10 @@ const HealthWellnessPage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const navigate = useNavigate();
 
+  const handleClick = () => {
+    window.scrollTo({ top: 0 });
+  };
+
   const slides = [
     {
       image: "./Images/top.jpg",
@@ -215,6 +219,7 @@ const HealthWellnessPage = () => {
             <div className="text-center">
               <button className="border border-amber-600 text-amber-600 px-6 py-2 hover:bg-amber-600 hover:text-white transition duration-300"> <Link
                 to="/explore_ayurveda"
+                onClick={handleClick}
                 className="text-lg font-semibold mb-4"
                 > Explore Ayurveda </Link>
               </button>

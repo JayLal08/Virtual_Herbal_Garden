@@ -10,6 +10,10 @@ const Navbar = () => {
 
   const { user } = useContext(AuthContext);
 
+  const handleClick = () => {
+    window.scrollTo({ top: 0 });
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       const offset = window.scrollY;
@@ -51,24 +55,28 @@ const Navbar = () => {
         <nav className="flex items-center space-x-10">
           <Link
             to="/"
+            onClick={handleClick}
             className="text-2xl font-semibold text-white hover:text-green-700 transition duration-300 hover:bg-gray-200 rounded-lg px-4 py-2"
           >
             Home
           </Link>
           <Link
             to="/health-wellness"
+            onClick={handleClick}
             className="text-2xl font-semibold text-white hover:text-green-700 transition duration-300 hover:bg-gray-200 rounded-lg px-4 py-2"
           >
             Explore
           </Link>
           <Link
             to="/AboutUs"
+            onClick={handleClick}
             className="text-2xl font-semibold text-white hover:text-green-700 transition duration-300 hover:bg-gray-200 rounded-lg px-4 py-2"
           >
             About
           </Link>
           <Link
             to="/ContactUS"
+            onClick={handleClick}
             className="text-2xl font-semibold text-white hover:text-green-700 transition duration-300 hover:bg-gray-200 rounded-lg px-4 py-2"
           >
             Contact
@@ -94,24 +102,28 @@ const Navbar = () => {
         <nav className="flex flex-col items-center space-y-4">
           <Link
             to="/"
+            onClick={handleClick}
             className="text-2xl font-semibold text-white hover:text-green-700 transition duration-300 hover:bg-gray-200 rounded-lg px-4 py-2"
           >
             Home
           </Link>
           <Link
             to="/health-wellness"
+            onClick={handleClick}
             className="text-2xl font-semibold text-white hover:text-green-700 transition duration-300 hover:bg-gray-200 rounded-lg px-4 py-2"
           >
             Explore
           </Link>
           <Link
             to="/AboutUs"
+            onClick={handleClick}
             className="text-2xl font-semibold text-white hover:text-green-700 transition duration-300 hover:bg-gray-200 rounded-lg px-4 py-2"
           >
             About
           </Link>
           <Link
             to="/ContactUS"
+            onClick={handleClick}
             className="text-2xl font-semibold text-white hover:text-green-700 transition duration-300 hover:bg-gray-200 rounded-lg px-4 py-2"
           >
             Contact

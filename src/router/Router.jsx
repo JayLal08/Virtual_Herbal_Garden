@@ -18,6 +18,7 @@ import ListProduct from "../Admin/ListProduct.jsx";
 import Admin_Navbar from "../Admin/Navbar.jsx";
 import Admin_Sidebar from "../Admin/Sidebar.jsx";
 import Admin from "../Admin/Page/Admin.jsx";
+import Your_tour from "../pages/Your_tour.jsx";
 
 const router = createBrowserRouter([
   {
@@ -127,6 +128,11 @@ const router = createBrowserRouter([
   {
     path: "/virtual_tour",
     element: <VirtualTour/>
+
+  },
+  {
+    path: "/your_tour",
+    element: <Your_tour/>
 
   },
 

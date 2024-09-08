@@ -12,6 +12,10 @@ const LandingPage = () => {
     navigate("./"); // Adjusted path
   };
 
+  const handleClick = () => {
+    window.scrollTo({ top: 0 });
+  };
+
   return (
     <div className="relative min-h-screen text-green-900">
       {/* Navbar */}
@@ -92,7 +96,7 @@ const LandingPage = () => {
                   <li>Discover the history and uses of medicinal herbs</li>
                   <li>Complete the tour to unlock special features</li>
                 </ol>
-                <Link to="/virtual_tour">
+                <Link to="/virtual_tour" onClick={handleClick}>
                   <button className="w-full bg-green-700 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
                     Start Virtual Tour
                   </button>
@@ -113,7 +117,7 @@ const LandingPage = () => {
                   <li>Read detailed information on each plant</li>
                   <li>Buy your favourute plants.</li>
                 </ol>
-                <Link to="/health-wellness">
+                <Link to="/health-wellness" onClick={handleClick}>
                   <button className="w-full bg-green-700 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
                     Begin Exploration to your own Garden
                   </button>

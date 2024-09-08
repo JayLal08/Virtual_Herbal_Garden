@@ -28,7 +28,7 @@ const Footer = () => {
                 <li>
 
               <Link
-                to="blank"
+                to="/explore_ayurveda"
                 className="text-lg font-semibold mb-4 underline"
                 > Explore Ayurveda</Link>
                 </li>
