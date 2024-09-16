@@ -37,7 +37,7 @@ const LandingPage = () => {
         <main className="container mx-auto px-4 py-2"> {/* Increased padding-top */}
           {/* Landing Page Section */}
           <section className="text-center mb-20">
-            <h2 className="text-5xl font-bold mb-4 text-black">
+            <h2 className="text-5xl font-bold mb-4 text-white drop-shadow-lg ">
               Discover the World of Medicinal Plants
             </h2>
             <p className="text-xl mb-8 text-white">
