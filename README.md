@@ -1,8 +1,12 @@
-# React + Vite
+# Virtual Herbal Garden
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hackathon:- Vadodara Hackathon 5.0 Project
 
-Currently, two official plugins are available:
+Tech Stack: ReactJS, TailwindCSS, Three.js, Express.js, MongoDB, ImageMagick, Firebase.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Purpose: Provides an interactive platform to explore and learn about medicinal plants with immersive 3D
+visualizations.
+
+Key Features: Intuitive UI, interactive 3D models, optimized multimedia content, and secure user authentication.
+
+Goal: To educate and engage users by showcasing traditional herbal knowledge through modern technology.
